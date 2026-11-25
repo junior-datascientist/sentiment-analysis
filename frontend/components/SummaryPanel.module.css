@@ -1,0 +1,65 @@
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: #fbfcfe;
+}
+
+.total span,
+.total strong {
+  display: block;
+}
+
+.total span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.total strong {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.breakdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.count {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.count strong {
+  color: var(--text);
+}
+
+.dot {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+}
+
+.positive {
+  background: #1f9d63;
+}
+
+.negative {
+  background: #d92d20;
+}
+
+.neutral {
+  background: #dc9b17;
+}
